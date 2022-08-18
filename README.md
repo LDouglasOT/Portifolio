@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microvers
+
 
 > This projects demostrates usage of linters to have better and organised code. For anyone who developes and contributes to the project , the structure and organisation will look like a single person wrote the code
 

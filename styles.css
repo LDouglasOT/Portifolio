@@ -13,217 +13,219 @@ body {
   margin-right: auto;
 }
 
-nav{
+nav {
   height: 50px;
-  background-color:#3C3A39;
-  display:flex;
+  background-color: #3c3a39;
+  display: flex;
   justify-content: space-between;
   padding: 5px 8px;
   align-items: center;
-  color: white; 
- 
+  color: white;
 }
 
-.intro-section{
-  background-color:#1C1A19;
+.intro-section {
+  background-color: #1c1a19;
   padding: 18px;
 }
-.intro-section h1{
-color:#FF6B00;
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 56px;
-line-height: 64px;
-letter-spacing: 0.37px;
+
+.intro-section h1 {
+  color: #ff6b00;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
 }
 
-.intro-section h4{font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-color: #FFF5E1;
+.intro-section h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
 }
 
-.intro-section p{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #ffffff;
+.intro-section p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
 }
 
+.contact-icons a {
+  margin: 20px 7px;
+}
 
-.contact-icons a{
-margin:20px 7px;
+.recent-work {
+  width: 80%;
+  font-size: 25px;
+  margin: 15px auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.recent-work{
-width: 80%;
-font-size: 25px;
-margin: 15px auto;
-justify-content: center;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.recent-work h4{
-  font-family: 'Crete Round';
+
+.recent-work h4 {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 52px;
-  margin:20px;
+  margin: 20px;
 }
-.svg-image{
+
+.svg-image {
   width: 100%;
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
-.header{
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 44px;
-color: #091E42;
-margin-top:10px;
-margin-bottom: 0px;
+.header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
-.main-layout2{
-padding: 18px;
+.main-layout2 {
+  padding: 18px;
 }
-.main-layout2 p{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+
+.main-layout2 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
-.main-layout2 button{
+
+.main-layout2 button {
   padding: 12px;
-  background: #FF6B00;
-  margin:7px 0px;
-  border: 0px solid transparent;
-  color:white;
+  background: #ff6b00;
+  margin: 7px 0;
+  border: 0 solid transparent;
+  color: white;
 }
 
-.about-section{
-  background: #1C1A19;
+.about-section {
+  background: #1c1a19;
   padding: 18px;
   display: flex;
   flex-direction: column;
-  color: #ffffff;
-}
-.intro h4{
-  font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 72px;
-line-height: 88px;
-letter-spacing: 0.37px;
-color: #FF6B00;
-margin-top: 30px;
-margin-bottom: 0px;
-}
-.intro p{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #F4F5F7;
-}
-.intro button{
-  padding: 12px;
-  background: #FF6B00;
-  border: 0px solid transparent;
-  color:white;
+  color: #fff;
 }
 
-.langs h3{
-font-family: 'InaiMathi';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-margin:20px 0px;
+.intro h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
-.langs h6{
-  font-family: 'Inter';
+
+.intro p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.intro button {
+  padding: 12px;
+  background: #ff6b00;
+  border: 0 solid transparent;
+  color: white;
+}
+
+.langs h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.langs h6 {
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 43px; 
+  line-height: 43px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
-  margin: 0px;
-  }
-.langs{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.contact{
-  padding: 18px;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-text-align: center;
-color: #172B4D;
-}
-.contact button{
-  padding: 12px;
-  background: #FF6B00;
-  margin:7px 0px;
-  border: 0px solid transparent;
-  color:white;
+  color: #fff;
+  margin: 0;
 }
 
-.contact{
-  display:flex;
+.langs {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
-.form-info{
-  display:flex;
+
+.contact {
+  padding: 18px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact button {
+  padding: 12px;
+  background: #ff6b00;
+  margin: 7px 0;
+  border: 0 solid transparent;
+  color: white;
+}
+
+/*
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.form-info {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width:80%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.form-info input{
-margin: 10px;
-border-width: 0px 0px 2px 0px;
-border-style: solid;
-border-color: lightgray;
-height:30px;
-width:100%;
-}
-.form-info textarea{
+.form-info input {
   margin: 10px;
-  border-width: 0px 0px 2px 0px;
+  border-width: 0 0 2px 0;
   border-style: solid;
   border-color: lightgray;
-  height:70px;
-  width:100%;
-  }
-.form{
-  width: 80%;
+  height: 30px;
+  width: 100%;
 }
-a{
-  text-decoration: none;
+
+.form-info textarea {
+  margin: 10px;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-color: lightgray;
+  height: 70px;
+  width: 100%;
+}
+
+.form {
+  width: 80%;
 }

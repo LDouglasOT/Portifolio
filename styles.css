@@ -12,7 +12,6 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: white;
-
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -27,14 +26,16 @@ nav {
   color: white;
   width: 400px;
   position: fixed;
-  margin: 0px;
+  margin: 0;
 }
-nav span{
- margin: 0px 5px;
+
+nav span {
+  margin: 0 5px;
 }
-nav img{
-  margin:0px 5px;
- }
+
+nav img {
+  margin: 0 5px;
+}
 
 .intro-section {
   background-color: #1c1a19;
